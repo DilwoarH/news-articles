@@ -14,3 +14,7 @@ body {
   padding: 10px;
   cursor: pointer;
 }
+
+img {
+  max-width: 100%;
+}

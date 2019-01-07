@@ -11,6 +11,9 @@
         if (article.id == articleId) {
           newsArticlesSection.html(`
           <h1 class="govuk-heading-xl">${article.headline}</h1>
+          <img src="${article.image_url}" alt="News Article Image">
+          <p class="govuk-body">${article.content}</p>
+          <p class="govuk-body-s">${article.published_date}</p>
           `);
           return;
         }
