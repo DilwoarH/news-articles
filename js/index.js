@@ -16,7 +16,6 @@
             >
               ${article.headline}
             </a>
-
           </div>
         </div>
       `);
