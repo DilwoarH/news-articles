@@ -10,7 +10,7 @@
       articles.forEach(article => {
         if (article.id == articleId) {
           newsArticlesSection.html(`
-          <span class="govuk-caption-m">Published on ${article.published_date}</span>
+          <span class="govuk-caption-m govuk-!-margin-top-6">Published on ${article.published_date}</span>
           <h1 class="govuk-heading-xl">${article.headline}</h1>
           <img src="${article.image_url}" alt="News Article Image">
           <p class="govuk-body">${article.content}</p>
